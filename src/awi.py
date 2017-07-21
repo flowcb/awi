@@ -202,8 +202,8 @@ class AwiModel(object):
 
 
 def make_seq2seq_model(**kwargs):
-    args = dict(vocab_size=10, num_units=20,
-                embedding_size=10, debug=False)
+    args = dict(vocab_size=10, num_units=30,
+                embedding_size=11, debug=False)
     args.update(kwargs)
     return AwiModel(**args)
 
